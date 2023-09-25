@@ -400,21 +400,21 @@ function MovementsTable() {
                       padding={4}
                     >
                       <GrDocumentCsv
-                        size="2.2rem"
+                        size="2,2rem"
                         cursor="pointer"
                         onClick={() => {
                           handleReportExport('csv');
                         }}
                       />
                       <BsFiletypeXlsx
-                        size="2.2rem"
+                        size="2,2rem"
                         cursor="pointer"
                         onClick={() => {
                           handleReportExport('xls');
                         }}
                       />
                       <MdPictureAsPdf
-                        size="2.2rem"
+                        size="2,2rem"
                         cursor="pointer"
                         onClick={() => {
                           handleReportExport('pdf');
