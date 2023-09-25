@@ -14,5 +14,6 @@ export const api = axios.create({
 });
 
 export const apiSchedula = axios.create({
-  baseURL: 'https://prd-2023-1-schedula-localidade.herokuapp.com/',
+  //baseURL: 'https://prd-2023-1-schedula-localidade.herokuapp.com/',
+  baseURL: 'http://10.6.52.18/',
 });
